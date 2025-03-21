@@ -1,0 +1,71 @@
+body{
+    background-color: rgba(183, 213, 242, 0.811);
+}
+
+.content {
+    max-width: 70%; /* 中央の幅を指定 */
+    margin: 0 auto; /* 中央配置 */
+    background-color: rgb(250, 243, 217); /* コンテンツの背景色 */
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+h3 {
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+p {
+    color: black;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+
+a{
+    font-size: large;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.button1{
+    position: fixed;
+    bottom: 20%;
+    right: 4%;
+    background-color: rgb(180, 221, 132);
+    color: white;
+    padding: 2% 4%;
+    text-decoration: none;
+    border-radius: 25%;
+    width: 5%;
+    font-size: 50%;
+    transition: transform 0.25s ease-in-out;
+}
+
+.button2{
+    position: fixed;
+    bottom: 8%;
+    right: 4%;
+    background-color: rgb(180, 221, 132);
+    color: white;
+    padding: 2% 4%;
+    text-decoration: none;
+    border-radius: 25%;
+    width: 5%;
+    font-size: 50%;
+    transition: transform 0.25s ease-in-out;
+}
+
+.button1:hover{
+    background-color: rgb(160, 198, 117);
+    color: white;
+    transform: translateX(-5%)
+}
+
+.button2:hover{
+    background-color: rgb(160, 198, 117);
+    color: white;
+    transform: translateX(-5%)
+}
